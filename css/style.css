@@ -207,6 +207,18 @@ body {
   margin-left: clamp(14px, 0px + 3.733vw, 28px);
 }
 
+.qa {
+  background-color: #fcf4ea;
+}
+
+.qa__title {
+  max-width: 71%;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: clamp(17px, 0px + 4.533vw, 34px);
+  padding-bottom: clamp(17px, 0px + 4.533vw, 34px);
+}
+
 .qa__items {
   display: flex;
   flex-direction: column;
@@ -227,7 +239,6 @@ body {
   transform: translateY(-50%);
   right: clamp(8px, 2px + 1.6vw, 14px);
   width: clamp(14px, -1px + 4vw, 29px);
-  height: clamp(14px, -1px + 4vw, 29px);
 }
 
 .qa__a {
