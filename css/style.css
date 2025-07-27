@@ -206,3 +206,30 @@ body {
 .voice__items .voice__item:nth-child(2) {
   margin-left: clamp(14px, 0px + 3.733vw, 28px);
 }
+
+.qa__items {
+  display: flex;
+  flex-direction: column;
+  max-width: 87%;
+  width: 100%;
+  margin: 0 auto;
+  gap: clamp(28px, 0px + 7.467vw, 56px);
+}
+
+.qa__q {
+  position: relative;
+}
+
+.qa__btn {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  right: clamp(8px, 2px + 1.6vw, 14px);
+  width: clamp(14px, -1px + 4vw, 29px);
+  height: clamp(14px, -1px + 4vw, 29px);
+}
+
+.qa__a {
+  display: none;
+}

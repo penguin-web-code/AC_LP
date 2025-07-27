@@ -53,3 +53,18 @@ progressbar：スライドの進捗に応じてプログレスバーが伸びる
 custom：自由にカスタマイズ
 
 =====================================================*/
+
+// アコーディオン
+$('.qa__item').click(function(){
+    $(this).find(".js-answer").slideToggle(500);
+    const img = $(this).find(".js-btn img");
+    // 画像の現在のsrcを取得
+    const currentSrc = img.attr("src");
+
+    // 例：閉じてる時は close-btn.png、開いてる時は open-btn.png に切り替え
+    if(currentSrc.includes("close-btn.png")) {
+        img.attr("src", "/img/open-btn.png");
+    } else {
+        img.attr("src", "/img/close-btn.png");
+    }
+});
