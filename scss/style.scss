@@ -258,4 +258,39 @@ body {
     display: none;
 }
 
+// footer
+.footer {
+    background-color: #f49112;
+    padding-top: clamp(13px, 0.000px + 3.467vw, 26px);
+    padding-bottom: clamp(21px, 0.000px + 5.6vw, 42px);;
+}
+
+.footer__contents {
+
+}
+
+.footer__top {
+    display: flex;
+    max-width: 65%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer__privacy__policy {
+    width: 50%;
+
+}
+
+.footer__contract {
+    width: 50%;
+
+}
+
+.copyright {
+    max-width: 79%;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
 
