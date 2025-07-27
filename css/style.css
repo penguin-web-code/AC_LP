@@ -14,3 +14,39 @@
     display: none !important;
   }
 }
+
+body {
+  max-width: 750px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  border: 1px solid #888;
+  position: fixed;
+  max-width: 750px;
+  top: 0;
+}
+
+.header__lead {
+  margin-top: clamp(61px, 1px + 16vw, 121px);
+}
+
+.fv {
+  position: relative;
+}
+
+.fv__line {
+  position: absolute;
+  content: "";
+  max-width: 88%;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: clamp(18px, 0px + 4.8vw, 36px);
+}
+
+.contact {
+  display: flex;
+}
