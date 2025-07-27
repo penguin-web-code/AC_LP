@@ -41,13 +41,10 @@ body {
   z-index: 100;
 }
 
-// header__lead
-.header__lead {
-  margin-top: clamp(61px, 1px + 16vw, 121px);
-}
 
 // fv
 .fv {
+    margin-top: clamp(61px, 1px + 16vw, 121px);
   position: relative;
 }
 .fv__line {
