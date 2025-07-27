@@ -1,0 +1,27 @@
+// breakpoints
+$breakpoints: (
+  "sp": "screen and (max-width: 767px)",
+  "tb": "screen and (min-width: 768px) and (max-width: 1024px)",
+  "pc": "screen and (min-width: 1025px)",
+  // 閉じ括弧を追加しました
+) !default;
+
+@mixin mq($breakpoint: pc) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+.is-sp {
+  @include mq(pc) {
+    display: none !important;
+  }
+}
+.is-pc {
+  @include mq(sp) {
+    display: none !important;
+  }
+  @include mq(tb) {
+    display: none !important;
+  }
+}

@@ -1,0 +1,16 @@
+@media screen and (min-width: 1025px) {
+  .is-sp {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .is-pc {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .is-pc {
+    display: none !important;
+  }
+}
