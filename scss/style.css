@@ -92,10 +92,16 @@ body {
   padding-bottom: clamp(28px, 0px + 7.467vw, 56px);
 }
 
+.card {
+  margin-bottom: clamp(29px, 0px + 7.733vw, 58px);
+  padding-bottom: clamp(53px, 0px + 14.133vw, 106px);
+}
+
 .card__swiper-container {
   max-width: 92%;
   width: 100%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ================================
@@ -167,4 +173,36 @@ body {
 /* activeな部分 */
 .swiper-pagination-bullets.swiper-pagination-horizontal .swiper-pagination-bullet-active {
   background: #000;
+}
+
+.voice {
+  background: transparent url(/img/voice-bg.png) no-repeat top center/cover;
+  position: relative;
+}
+
+.voice__title {
+  padding-top: clamp(20px, 0px + 5.333vw, 40px);
+  max-width: 84%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: clamp(20px, 0px + 5.333vw, 40px);
+}
+
+.voice__items {
+  max-width: 95%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(38px, 0px + 10.133vw, 76px);
+  padding-bottom: clamp(33px, 0px + 8.8vw, 66px);
+}
+
+.voice__item {
+  margin-left: clamp(5px, 0px + 1.333vw, 10px);
+  width: 100%;
+}
+
+.voice__items .voice__item:nth-child(2) {
+  margin-left: clamp(14px, 0px + 3.733vw, 28px);
 }/*# sourceMappingURL=style.css.map */
