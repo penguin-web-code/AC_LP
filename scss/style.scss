@@ -229,7 +229,8 @@ body {
     max-width: 87%;
     width: 100%;
     margin: 0 auto;
-    gap: clamp(28px, -0.000px + 7.467vw, 56px);;
+    gap: clamp(28px, -0.000px + 7.467vw, 56px);
+    padding-bottom: clamp(27px, 0.000px + 7.2vw, 54px);
 }
 
 .qa__item {
